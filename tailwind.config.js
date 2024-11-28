@@ -23,9 +23,17 @@ module.exports = {
                     '83.33%': { transform: 'translateX(-100%)' },
                     '100%': { transform: 'translateX(-200%)' },
                 },
+
+
+                swipein: {
+                    '0%, 25%': { transform: 'translateY(115%)' },
+                    '50% 100%': { transform: 'translateX(0%)' },
+                },
+
             },
             animation: {
                 slide: 'slide 12s infinite ease-in-out',
+                swipein: 'swipein 0.4s ease-in',
             },
 
             fontFamily: {

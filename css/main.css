@@ -748,6 +748,20 @@ video {
   animation: slide 12s infinite ease-in-out;
 }
 
+@keyframes swipein {
+  0%, 25% {
+    transform: translateY(115%);
+  }
+
+  50% 100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-swipein {
+  animation: swipein 0.4s ease-in;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
